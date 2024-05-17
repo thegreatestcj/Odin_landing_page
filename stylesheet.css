@@ -1,0 +1,151 @@
+
+body {
+    font-family: "Roboto";
+    
+}
+
+.first {
+    background-color: #1F2937;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+}
+
+.first .main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    justify-content: space-between;
+}
+
+#headerLogo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.headerLink {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1;
+}
+
+#heroSubText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#heroMain {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 0px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 450px;
+}
+
+.left > div {
+    margin: 2% 0;
+}
+
+.right {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.second {
+    padding: 5% 15%;
+}
+
+.second > .header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.second > .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.second img {
+    border: 2px solid #3882F6;
+    
+}
+
+.third {
+    padding: 5% 20%;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    color:#1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.fourth {
+    padding: 10% 15%;
+}
+
+.block {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#callToAction {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#signUp2 {
+    justify-content: flex-end;
+    border: 2px solid #F9FAF8;
+}
